@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/2.0.0/document.adoc
+
+  collection:
+    organization: "IHO: International Hydrographic Organization"
+    name: "IHO S-99 Operational Procedures for the Organization and Management of the S-100 GI Registry"
