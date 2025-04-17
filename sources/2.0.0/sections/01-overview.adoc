@@ -1,0 +1,244 @@
+== Overview
+
+=== Introduction and History
+
+[underline]#Edition 1.0.0#
+
+In January 2010 the International Hydrographic Organization (IHO)
+adopted S-100, a framework geospatial standard for hydrographic and
+related data. S-100 is aligned with the ISO 19100 series of
+geographic standards -- thereby making the use of hydrographic and
+other geographic data more interoperable than previously done using
+the IHO S-57 data transfer standard.
+
+S-100 is underpinned by a Registry and component Registers based on
+ISO 19135 - _Procedures for registration of items of geographic
+information_. The IHO owns and manages the IHO Geospatial Information
+(GI) Registry.
+
+This document describes the roles, responsibilities and procedures
+for operating and managing the IHO GI Registry and its component
+Registers.
+
+[underline]#Edition 1.1.0#
+
+As a result of the practical use of the IHO GI Registry by the
+Registry Manager and other organisations outside the IHO that are
+using S-100, a number of revisions were introduced in edition 1.1.0.
+These revisions concern conceptual rather than substantive changes to
+the notion of Domains and the previous theoretical subdivision of the
+Registry into _main_ and _supplementary_ Registers. The time limit on
+consideration of proposals was also extended from 30 days to 60 days
+in order to allow stakeholders, as represented by the Domain Control
+Bodies, more time for consideration.
+
+[underline]#Edition 2.0.0#
+
+In December 2020 a new version of the IHO GI Registry (Version 3.1)
+became operational. Along with further revisions due to continued
+practical use of the Registry, this version of the Registry includes
+a substantive change to the structure of the Registry, its interface
+and management processes in order to better enable the management of
+registered items within a multi-Domain environment. In order to
+achieve this, the former Feature Concept Dictionary Register has been
+split into two new Registers -- the Concept Register and the Data
+Dictionary Register. The Concept Register is the repository for
+effectively "stateless" concepts that may then be assigned type and
+bindings to other concepts within the Data Dictionary Register in
+order to satisfy Domain requirements for Product Specifications.
+
+[bibliography]
+=== Normative References
+
+The following referenced documents are required for the application
+of this document. For dated references, only the edition cited
+applies. For undated references, the latest edition of the referenced
+document (including amendments) applies.
+
+* [[[S100, IHO S-100]]]
+
+* [[[ISO19103,ISO 19103]]]
+
+* [[[ISO19110,ISO 19110]]]
+
+* [[[ISO19115,ISO 19115]]]
+
+* [[[ISO19117,ISO 19117]]]
+
+* [[[ISO19131,ISO 19131]]]
+
+* [[[ISO19135,ISO 19135:2005]]]
+
+* [[[ISO19126,ISO 19126:2009]]]
+
+[heading=terms and definitions]
+=== Terms, Definitions and Abbreviations
+
+==== Terms and Definitions
+
+===== Clarification
+
+A non-substantive change to a register item.
+
+[.source]
+<<ISO19135>>
+
+===== Control Body
+
+Group of technical experts that makes decisions regarding the content
+of a Register.
+
+[.source]
+<<ISO19135>>
+
+In UML "a classifier that describes a range of values that instances
+of the classifier may hold."
+
+[.source]
+<<ISO19103>>, adapted from ISO/IEC 19501
+
+===== Data Product Specification
+
+Detailed description of a dataset or dataset series together with
+additional information that will enable it to be created, supplied to
+and used by another party.
+
+[.source]
+<<ISO19131>>
+
+NOTE: A data product specification provides a description of
+Hydrographic and Marine-Related Concepts and a specification for
+mapping the universe of discourse to a dataset. It may be used for
+production, sales, end-use or other purposes.
+
+===== Dataset
+
+Identifiable collection of data.
+
+[.source]
+<<ISO19115>>
+
+===== Feature Catalogue
+
+A catalogue containing definitions and descriptions of the feature
+types, feature attributes, and feature associations occurring in one
+or more sets of geographic data.
+
+[.source]
+<<ISO19110>>
+
+===== Metadata
+
+Data about data.
+
+[.source]
+<<ISO19115>>
+
+===== Portrayal
+
+Presentation of information to humans.
+
+[.source]
+<<ISO19117>>
+
+===== Portrayal Catalogue
+
+Collection of defined portrayalsfor a Feature Catalogue.
+
+===== Register
+
+Set of files containing identifiers assigned to items with
+descriptions of the associated items.
+
+[.source]
+<<ISO19135>>
+
+NOTE: Descriptions may consist of many types of information,
+including names, definitions and codes.
+
+===== Register Manager
+
+Organization to which management of a Register has been delegated by
+the Register Owner.
+
+[.source]
+<<ISO19135>>
+
+NOTE: In the case of an IHO Register, the Register Manager performs
+the functions of the registration authority specified in the IHO
+Directives.
+
+===== Register Owner
+
+Organization that establishes a register.
+
+[.source]
+<<ISO19135>>
+
+===== Registration
+
+Assignment of a permanent, unique (in the Register), and unambiguous
+identifier to an item.
+
+[.source]
+<<ISO19135>>
+
+===== Registry
+
+Information system on which a Register is maintained.
+
+[.source]
+<<ISO19135>>
+
+===== Retirement
+
+Declaration that a register item is no longer suitable for use in the
+production of new data.
+
+[.source]
+<<ISO19135>>
+
+NOTE: The status of the retired item changes from 'valid' to
+'retired'. A retired item is kept in the Register to support the
+interpretation of data produced before its retirement.
+
+===== Submitting Organization
+
+Organization authorised by a Register Owner to propose changes to the
+content of a Register.
+
+[.source]
+<<ISO19135>>
+
+===== Supersession
+
+Replacement of a Register item by one or more new items.
+
+[.source]
+<<ISO19135>>
+
+NOTE: The status of the replaced item changes from 'valid' to
+'superseded.' A superseded item is kept in the Register to support
+the interpretation of data produced before its supersession.
+
+===== Type
+
+Stereotype of class that is used to specify a domain of instances
+(objects) together with the operations applicable to the objects.
+
+[.source]
+<<ISO19135>>
+
+NOTE: A type may have attributes and associations.
+
+==== Abbreviations
+
+DCB:: Domain Control Body
+
+ECB:: Executive Control Body
+
+GI:: Geospatial Information
+
+IALA:: International Association of Lighthouse Authorities
+
+IHO:: International Hydrographic Organization

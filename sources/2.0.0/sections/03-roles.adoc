@@ -1,0 +1,244 @@
+== Roles and Responsibilities for the Management of the Registry and Registers
+
+=== Registry
+
+==== Registry Owner
+
+The IHO GI Registry is owned by the IHO.
+
+==== Registry Manager
+
+The IHO GI Registry Manager shall be appointed by the IHO. The
+function may be fulfilled using IHO Secretariat staff; contracted
+personnel; or volunteers, depending on resources available.
+
+The Registry Manager is responsible for the day-to-day operation of
+the Registry. This includes:
+
+* providing Registry access for the Register Manager(s), Control
+Bodies, Submitting Organizations and Register Users;
+* ensuring that information about items in the Registers is
+accessible for users; including those items that are valid,
+clarified, superseded, or retired; and
+* maintaining a daily backup routine of the Registry database.
+
+==== Register Owner
+
+The IHO is the owner of all Registers in the IHO GI Registry.
+
+==== Register Manager
+
+The Register Manager(s) shall be appointed by the IHO. This function
+may be fulfilled using IHO Secretariat staff; contracted personnel;
+or volunteers, depending on the resources available.
+
+A Register Manager is responsible for the administration of a
+Register. This includes:
+
+* sustaining the necessary coordination between Submitting
+Organizations, Control Bodies and the Registry Manager;
+* inspecting and processing the various application forms;
+* maintaining items within the Register;
+* maintaining and publishing a list of Submitting Organizations; and
+* providing periodic reports at intervals no greater than 12 months
+to the Executive Control Body and to the HSSC. Each report shall take
+account of all notable events since the last report, including:
+
+** proposals received and the decisions taken;
+** any new enrolments of representatives of Submitting Organizations;
+and
+** all other matters of interest and relevance to the Executive
+Control Body or the HSSC.
+
+=== Availability of Information in Registers
+
+Register Manager(s) shall ensure that information about valid,
+clarified, superseded, or retired items in the Registers is readily
+available to users. The method for providing this information may
+depend upon the requirements of the members of the Register user
+community.
+
+=== Security and Integrity of the Registry
+
+Register Manager(s) shall ensure that, for each Register being
+managed:
+
+* all aspects of the registration process are handled in accordance
+with good business practice;
+* the content of the Register is accurate; and
+* only authorized persons can make changes to the contents of a
+Register.
+
+Registry Manager(s) shall ensure the security and integrity of the
+Registry using IT best practices.
+
+=== Registry Control Bodies
+
+The Concept Register, Data Dictionary Register, Portrayal Register
+and Metadata Register shall each be overseen by two control bodies, a
+Domain Control Body (DCB) that will assess and endorse proposals; and
+an Executive Control Body (ECB) that will oversee the operation of
+the Registers and adjudicate any disputes.
+
+DCB and ECB oversight is not required for the Product Specification
+Register nor the Producer Code Register because they are both, in
+effect, non-discretionary lists of entries requiring little or no
+decision making or vetting.
+
+The DCB and ECB will conduct all its work by correspondence, using
+automated Registry facilities, such as automatic alert generation and
+on-line review facilities, wherever possible.
+
+==== The Domain Control Body
+
+The Domain Control Body (DCB) is a group of technical experts
+appointed by a Register Owner to decide on the acceptability of
+proposals for changes to the content of a Register. The group shall
+comprise experts in related fields that constitute the contents of
+the Register. The Domain Control Body (DCB) shall consist of a
+representative of each of the Domains recognized in each Register
+type.
+
+NOTE: For the Concept Register, the Domain Control Body consists of a
+representative of each of the Domains in the Data Dictionary Register
+(see <<cls-2.3>>).
+
+The Domain Control Body for the Concept Register shall also include a
+representative of the IHO Hydrographic Dictionary Working Group
+(HDWG) and the IHO Data Quality Working Group (DQWG).
+
+===== Domain Control Body Responsibilities
+
+Domain Control Body members are responsible for:
+
+* acting as the spokesperson for their Domain;
+* canvassing other members in their Domain for an opinion on the
+acceptability of any new proposal. How this is organized is at the
+discretion of the Domain Owners; and
+* forwarding a decision to the Register Manager within 60 days
+through the approval process in the IHO GI Registry interface (NOTE;
+Nil returns will be taken as acceptance of the proposal).
+
+The overriding purpose of the DCB is to assess the suitability of
+every new proposal submitted to a Register.
+
+Any rejection of a proposal by a member of the DCB must be fully
+justified.
+
+Criteria for not accepting a proposal includes (but may not be
+restricted to):
+
+* the specification of the item is incomplete or incomprehensible;
+* an identical or very similar item already exists in the Register or
+in another Register in the Registry;
+* the proposed item does not belong to an item class included in a
+Register;
+* the proposed item does not fall within the scope of a Register; or
+* the justification for the proposal is inadequate.
+
+==== Executive Control Body
+
+The Executive Control Body (ECB) monitors and advises the Register
+Manager(s); and acts as arbiters for any decisions or disputes in the
+Register process. The Executive Control Body (ECB) shall consist of a
+representative of each of the Domains recognized in each Register
+type.
+
+NOTE: For the Concept Register, the Executive Control Body consists
+of a representative of each of the Domains in the Data Dictionary
+Register (see <<cls-2.3>>). In the event that a resolution cannot be
+achieved, the ECB may request a decision from the HSSC.
+
+The ECB shall monitor enrolment requests from representatives of
+Submitting Organizations to confirm the appropriateness of the
+participation of a Submitting Organization and its representative in
+the Registry. The ECB may de-register a representative of a
+Submitting Organization if they are considered inappropriate or
+unrepresentative.
+
+The ECB shall conduct annual reviews of the participation rate of
+representatives of Submitting Organizations in order to confirm their
+eligibility to remain enrolled. Periods of inactivity greater than 18
+months may be regarded as inactive.
+
+=== Submitting Organizations
+
+Submitting Organizations propose changes and additions to the
+contents of Registers.
+
+Submitting Organizations shall normally represent a recognized body
+or stakeholder group (such as from government, industry, academia,
+and relevant user groups).
+
+Registered Submitting Organizations may submit proposals for
+consideration under any Domain in a Register.
+
+Stakeholders and any other interested parties who do not wish to
+enrol should submit proposals through an existing Submitting
+Organization.
+
+[[cls-3.5.1]]
+==== Representatives of Submitting Organizations
+
+The representatives of Submitting Organizations are essentially the
+designated representative of their recognized stakeholder group that
+contributes to the contents of a Register. There shall normally be
+only one member of the Submitting Organization nominated to be the
+Submitting Organization representative, however the group may
+nominate two representatives if considered necessary. Approval of
+Submitting Organization representative(s) is at the discretion of the
+Register Executive Control Body.
+
+Representatives of Submitting Organizations are responsible for:
+
+* acting as the spokesperson for their Submitting Organization;
+* developing proposals in consultation with other members in their
+Submitting Organization. How this is organized is at the discretion
+of the Submitting Organization;
+* forwarding proposals to the relevant Register Manager through the
+approval process in the IHO GI Registry interface; and
+* communicating to and coordinating any response from the Submitting
+Organization in the event that a proposal is rejected.
+
+==== Eligibility
+
+An automatic on-line registration form to enrol as a representative
+of a Submitting Organization shall be available on the IHO GI
+Registry website. Applications shall provide at least the following
+information:
+
+* Organization to which the applicant is associated or is
+representing.
+* Given name of representative.
+* Family name of representative.
+* Mailing address.
+* e-mail address.
+* Unique ID (login).
+* Secure password.
+* Justification for being recognized as a Submitting Organization
+representative.
+* List of Domains to which the Submitting Organization representative
+wishes to actively participate.
+
+More than one representative may enrol on behalf of each Submitting
+Organization, however this is discouraged (see <<cls-3.5.1>>).
+
+The Register Manager shall inspect all incoming enrolments to ensure
+that they are legitimate and meet the aims and requirements of the
+Registry. The Register Manager shall alert the ECB of all suspect
+enrolments for adjudication.
+
+Submitting Organization representatives may be de-registered if they
+become inactive.
+
+==== List of Submitting Organizations
+
+The Register Manager(s) shall maintain and publish a list of all
+recognized Submitting Organizations that may submit proposals for
+changes to the Registry. Each list shall include the name and contact
+information for the representative(s) of each Submitting Organization.
+
+=== Register User
+
+A Register User is any person or organization requiring access to and
+use of the contents of a Register.

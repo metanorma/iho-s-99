@@ -1,0 +1,48 @@
+[.preface]
+== metanorma-extension
+
+[.boilerplate]
+--
+Changes to this Product Specification are coordinated by the IHO S-100 Working Group (S-
+100WG) which is a Working Group of the IHO Hydrographic Services and Standards
+Committee (HSSC). New editions will be made available via the IHO web site.
+--
+
+=== document history
+
+[source,yaml]
+----
+- date:
+  - type: published
+    value:  2011-01
+  edition: 1.0.0
+  contributor:
+  - organization:
+      name: International Hydrographic Organization
+      subdivision: TSMAD Working Group
+      abbreviation: TSAMDWG
+  amend:
+    - description: Initial publication.
+- date:
+  - type: updated
+    value:  2012-11
+  edition: 1.1.0
+  contributor:
+  - organization:
+      name: International Hydrographic Organization
+      subdivision: TSMAD Working Group
+      abbreviation: TSAMDWG
+  amend:
+    - description: Revisions based on practical use of the IHO GI Registry.
+- date:
+  - type: updated
+    value:  2022-05
+  edition: 2.0.0
+  contributor:
+  - organization:
+      name: International Hydrographic Organization
+      subdivision: S-100 Working Group
+      abbreviation: S-100WG
+  amend:
+    - description: Complete redrafting due to implementation of a new, restructured version of the IHO GI Registry and revision of S-100 Part 2 (S-100 Edition 5.0.0).
+----

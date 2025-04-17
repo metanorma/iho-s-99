@@ -1,0 +1,178 @@
+== Structure of the Registry and Registers
+
+=== Registry
+
+The IHO Geospatial Information (GI) Registry shall be hosted on an
+IHO server.
+
+=== Registers
+
+A Register is simply a managed list. It is easier to maintain than a
+fixed document, because new items can be added as needed to the
+Register; and existing items in the Register can be clarified,
+superseded or retired. Each Register item has one or more dates
+associated with it that indicate when changes in its status occurred.
+This means that a Product Specification, defined at a given date, may
+reference an item in the Register at that specific point in time. The
+IHO GI Registry consists of six Registers:
+
+* Concept Register;
+* Data Dictionary Register;
+* Portrayal Register;
+* Metadata Register;
+* Product Specification Register; and
+* Producer Code Register.
+
+[[fig1]]
+.Relationship between the Registry and the Registers
+image::img01.png[width=50%]
+
+A *Concept Register* specifies unique, independent sets of primary
+resources of basic information that may be used to describe
+geographic, hydrographic, and metadata information. These concepts as
+registered in the Concept Register may then be used within the *Data
+Dictionary Register* to develop a Feature Catalogue. Unlike a Data
+Dictionary Register, a Concept Register does not make associations;
+or define type or bindings of concepts to other concepts. From this
+perspective, registered items within the Concept Register are
+essentially "stateless", which allows for flexibility of the use of
+the concepts for suitable data modelling to satisfy the requirements
+of Product Specifications.
+
+The *Concept Register* specifies hydrographic core conceptual
+information (name, definition, camel case, etc.) corresponding to the
+concept; and these concepts can then be utilized within the *Data
+Dictionary Register* to satisfy the requirements of data models to be
+implemented in S-100 based Product Specifications.
+
+The *Data Dictionary Register* specifies independent sets of
+definitions of features, attributes, enumerated values, and
+information types that may be used to describe geographic,
+hydrographic, and metadata information. The Data Dictionary Register
+may be used to assign an item defined in the Concept Register a type
+(for example feature, attribute and enumerate value); and define
+recommended associations and attribute/feature bindings to facilitate
+the development of Feature Catalogues. Items in the Concept Register
+can only be registered once against each type in the Data Dictionary
+Register in order to support interoperability.
+
+The *Portrayal Register* specifies independent sets of definitions of
+point symbols, pattern symbols, complex line styles, and colour
+symbols; as well as symbol definitions, colour definitions, portrayal
+parameters and portrayal management concepts such as viewing groups.
+In addition, the Portrayal Register may be subdivided into different
+Domains. The Portrayal Register may be used to develop the Portrayal
+Catalogue. Unlike the Portrayal Catalogue, a Portrayal Register does
+not define the portrayal rules or bind the portrayal to a feature.
+
+The *Concept*, *Data Dictionary*, *Portrayal* and
+*Metadata{blank}footnote:[The Metadata Register has been implemented,
+however is still in development.] Registers* are, in effect, managed
+lists or dictionaries of items. Selections from these four Registers
+are used to define Feature and Portrayal Catalogues used in
+individual Product Specifications.
+
+The *Product Specification Register* is a list of S-100 based Product
+Specifications, created by recognized organizations, describing meta
+information about the content, purpose, version, location and
+availability of those Product Specifications.
+
+The *Producer Code Register*{blank}footnote:[The Producer Code
+Register will be revised to incorporate the requirements for S-100
+based products.] is the authoritative list of the codes which can, if
+required, be stipulated in Product Specifications to identify the
+producers of a particular data product; for example, Hydrographic
+Offices for ENC producer codes.
+
+The Producer Code Register incorporates the up to date list of ENC
+Producer Codes that are listed in IHO Publication S-62 -- __ENC
+Producer Codes__, together with the S-57 data Producer Codes that
+were listed on the Open ECDIS forum website (_www.openecdis.org_).
+These downloadable files provide the most up to date records of ENC
+data producers. IHO Publication S-62 - now titled _List of Data
+Producer Codes_ is an on-demand copy of the contents of the Producer
+Code Register; and can be downloaded directly from the IHO GI
+Registry.
+
+A machine readable XML version of the IHO Producer Codes will be
+available for use in systems when the operational version of the
+S-101 ENC Product Specification is published by the IHO.
+
+The Data Producer Code Register is sub divided as follows:
+
+* Producer Codes allocated to State authorities for use in products
+authorized by the parent State; and
+* All other Producer Codes.
+
+==== S-100 Test Bed
+
+The *S-100 Test Bed* is a system to support the development of new
+Product Specifications based on the S-100 framework. Within the Test
+Bed, S-100 stakeholders and recognized organizations can create a new
+Product Specification and share their on-going project's results,
+such as new draft versions of the Product Specification document;
+catalogue XML files; test datasets; and scenario's for validation.
+Only S-100 based Product Specifications that pass the whole Test Bed
+process can be transferred to the Product Specification Register as
+an active specification.
+
+[[cls-2.3]]
+=== Domains
+
+Within the Data Dictionary, Portrayal and the Metadata Registers each
+entry is assigned to a recognised Domain. The purpose of designating
+Domains and a related Domain Control Body is to ensure that the key
+stakeholders (as represented by the Domains) are consulted in any
+subsequent proposals to adjust items contained in a Register.
+
+The Concept Register contains the core conceptual items that may be
+used within the Data Dictionary Register. As such, the Concept
+Register is essentially "domainless". However, the Concept Register
+does have a Domain Control Body, which is comprised of the
+representatives of each of the Domains within the Data Dictionary
+Register.
+
+The Data Dictionary Register encompasses Hydrographic-related domains
+such as nautical charts, nautical publications, inland ENC, port ENC,
+water levels and currents, and marine information overlays (MIO); as
+well as marine-related Domains for other international organizations
+such as the World Meteorological Organization (for sea ice and
+weather), IALA (aids to navigation), and the International
+Electrotechnical Commission. Other maritime data Domains may be
+included over time as the Registry expands and is used more widely.
+
+[[fig2]]
+.Domains within Registers
+image::img02.png[width=50%]
+
+==== Establishment of Domains
+
+Any recognized organization can propose a new Domain. A Register
+Manager may also propose a new Domain depending on the requirements
+of a Register, its existing users or an awareness of any potential
+new users or new requirements.
+
+The body responsible for the approval of the establishment of new
+Domains in a Register is the IHO Hydrographic Services and Standards
+Committee (HSSC). The following information shall be provided to the
+HSSC via the Register Manager for proposals for any new Domains:
+
+* a short description of the proposing organization or body (name,
+role, etc.);
+* an official point of contact, including email and other relevant
+contact details;
+* the proposed name of the new Domain;
+* a clear statement of the intended scope of the proposed domain;
+* a justification for the proposal; and
+* a confirmation of willingness of the proposing organization or body
+to act as Domain Owner and provide representation to the Register
+Domain Control Body.
+
+An application form for proposing a new Domain shall be available on
+the IHO GI Registry website.
+
+The Register Manager shall be responsible for processing applications.
+
+The Executive Control Body shall review and endorse any proposals and
+the HSSC shall decide on proposals for new Domains on behalf of the
+Registry Owner (IHO).
