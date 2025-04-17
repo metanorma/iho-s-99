@@ -1,0 +1,570 @@
+== Administration of Registers
+
+=== Proposals
+
+Submitting Organization representatives may submit proposals for new
+items; or for clarification, supersession, or retirement of valid
+registered items. Proposals are to be submitted using the mechanisms
+provided in the Registry web interface for the relevant Register.
+
+==== Addition of Registered Items
+
+An Addition is the insertion into a Register of a new item that
+describes a concept not adequately described by a valid item already
+in the Register.
+
+==== Clarification of Registered Items
+
+A Clarification corrects errors in spelling, punctuation, grammar or
+improvements to content or wording. A clarification shall not cause
+any substantive semantic change to a registered item. The three
+characteristics that may be clarified are definition, other
+references, and remarks.
+
+==== Supersession of Registered Items
+
+A Supersession of an item means any proposal that would result in a
+substantive semantic change to an existing valid item, such as a
+change to the name of an item or its camelCase identifier; or a
+change in the portrayal of an item in the Portrayal Register.
+Supersession shall be accomplished by including one or more new items
+in the appropriate Register with new identifiers and a more recent
+date. The original item shall remain in the Register but must include
+the date at which it was superseded, and a reference to the items
+that superseded it.
+
+==== Retirement of Registered Items
+
+A Retirement shall be effected by leaving an item in the Register,
+but by marking it as "__retired__"; and including the date of
+retirement.
+
+=== Proposal Process -- Concept, Data Dictionary, Portrayal and Metadata Registers
+
+Submitting Organizations shall manage the development of proposals
+for entries or amendments to the Concept, Data Dictionary, Portrayal
+and Metadata Registers from within their respective Working Groups,
+communities or organizations.
+
+The process for submitting proposals for the registration of items in
+the Concept, Data Dictionary and Portrayal Registers is illustrated
+in <<fig4-1;and!fig4-2>> below.
+
+[[fig4-1]]
+.Processing of Proposals -- Concept Register
+image::img03.png[]
+
+[[fig4-2]]
+.Processing of Proposals -- Data Dictionary, Portrayal and Metadata Registers
+image::img04.png[]
+
+==== Submission Process
+
+The Submitting Organization representative shall:
+
+. receive proposals for the registration of items from proposers
+within their respective Working Groups, communities or organizations;
+
+. ensure that all proposals are logical and complete and are
+consistent with other registered items within the Register; and
+
+. submit proposals to the appropriate Register through the submission
+process in the IHO GI Registry interface.
+
+The Register Manager shall:
+
+. receive proposals from Submitting Organizations representatives;
+
+. review proposals for completeness;
+
+. return proposals to the Submitting Organization representative if
+incomplete or inconsistent; and
+
+. update the item management record, with the _proposalStatus_ set to
+'notYetDetermined'.
+
+The Register Manager shall use the following criteria to determine if
+a proposal is complete:
+
+. the proposal is from a recognized Submitting Organization
+representative;
+
+. the proposed item falls within the scope of the Register or domain;
+and
+
+. a registered item (or similar) to the proposed item does not
+already exist.
+
+If the decision of the Register Manager is positive, the proposal
+shall be forwarded to the Register Domain Control Body for approval.
+If the decision of the Register Manager is negative, the proposal
+shall be returned to the Submitting Organization representative for
+rework or cancellation as required.
+
+==== Approval Process
+
+The process for determining the acceptability of proposals is
+illustrated in <<fig4-1;and!fig4-2>> above. The approval process
+shall normally be completed within a time period of 60 days. In the
+case of appeal this period shall be extended to 90 days.
+
+The Register Manager shall ensure the following:
+
+. if the proposal is for clarification or retirement of a Register
+item, set the _itemStatus_ of the item to 'processing'; and forward
+the proposal to the Register Domain Control Body; or
+
+. if the proposal is for registration of a new item or supersession
+of an existing Register item:
+
+.. assign an _itemIdentifier_ to the new or superseding item,
+
+.. set the _itemStatus_ of the item to 'processing'; and
+
+.. inform the Register Domain Control Body of the new proposal within
+five working days.
+
+The Register Domain Control Body can decide to:
+
+. accept the proposal without change;
+
+. accept the proposal subject to changes negotiated with the
+Submitting Organization; or
+
+. not accept the proposal.
+
+Criteria for not accepting a proposal include (but may not be
+restricted to):
+
+. the specification of the item is incomplete or incomprehensible;
+
+. an identical or very similar item already exists in the Register or
+in another Register of the Registry;
+
+. the proposed item does not belong to an item class included in the
+Register;
+
+. the proposed item does not fall within the scope of the Register; or
+
+. the justification for the proposal is inadequate.
+
+Each Domain Control Body member shall inform the Register Manager of
+their Working Group / organization's decision, and the rationale for
+that decision, within 60 days of receipt of the proposal through the
+approval process in the IHO GI Registry interface. Nil returns will
+be taken as acceptance of the proposal.
+
+The Register Manager shall:
+
+. serve as the point of contact if there is a need for negotiations
+between a Submitting Organization and the Register Domain Control
+Body regarding any changes required to a proposal that may be
+specified by the Domain Control Body as a condition of acceptance; and
+
+. inform the Submitting Organization representative of the results of
+processing the proposal.
+
+If the decision of the Register Domain Control Body is positive, the
+Register Manager shall, in accordance with policies for the Register:
+
+. complete the proposal management record with _proposalStatus_ set
+to 'accepted', and _dateAccepted_ to the date of the Domain Control
+Body's decision;
+
+. make approved changes to the content of the Register item; and
+
+. set the Register item _itemStatus_ to 'valid', 'clarified',
+'superseded', or 'retired', as appropriate.
+
+If the decision of the Register Domain Control Body is negative, the
+Register Manager shall:
+
+. update the proposal management record by setting _proposalStatus_
+to 'rejected', and _dateAmended_ to the date of the Domain Control
+Body's decision;
+
+. inform the Submitting Organization of the 60 working day deadline
+for appealing the decision of the Domain Control Body; and
+
+. make the results of the approval process available to all
+interested parties.
+
+Submitting Organization representatives shall:
+
+. negotiate with the Register Domain Control Body through the
+Register Manager, regarding any changes to their proposals that are
+specified by the Domain Control Body as a condition of acceptance; and
+
+. make known to the proposer and within their respective Submitting
+Organization communities or organizations the decisions taken on
+proposals by the Domain Control Body as transmitted to them by the
+Register Manager.
+
+==== Withdrawal of Proposals
+
+Submitting Organizations may decide to withdraw a proposal, using the
+withdrawal process in the IHO GI Registry interface, at any time
+during the approval process.
+
+The Register Manager shall then:
+
+. change the proposal management _proposalStatus_ from
+'notYetDetermined' to 'withdrawn';
+
+. change the proposal management value for _dateAmended_ to the
+current date; and
+
+. keep track of the proposal and report the withdrawal in the next
+periodic report.
+
+==== Appeals
+
+A Submitting Organization representative may appeal to the Register
+Executive Control Body if it disagrees with the decision of the
+Register Domain Control Body to reject a proposal for addition,
+clarification, supersession or retirement of an item in the Register.
+An appeal shall contain at a minimum a description of the situation;
+a justification for the appeal; and a statement of the impact if the
+appeal is not successful. The appeal process is included in the
+overall proposal process as shown in <<fig4-1;and!fig4-2>> above.
+
+The Submitting Organization shall:
+
+. determine if the decision regarding a proposal for registration is
+acceptable; and
+
+. if not, submit an appeal to the Register Manager through the appeal
+process in the IHO GI Registry interface.
+
+The Register Manager shall:
+
+. if an appeal is submitted:
+
+.. change the proposal management _proposalStatus_ of the item to
+'appeal'; and
+
+.. forward the appeal to the Executive Control Body; or
+
+. if there is no appeal by the deadline for submitting an appeal, the
+Register Manager shall change the status of the proposal management
+record to 'rejected'; and change the _dateAmended_ to the current
+date.
+
+The Register Executive Control Body shall:
+
+. process the appeal in conformance with its established procedures;
+
+. decide whether to accept or reject the appeal; and
+
+. communicate the decision to the Register Manager.
+
+The Register Manager shall:
+
+. update the proposal management record fields _proposalStatus_ and
+_dateAmended_;
+
+. update the Register item _itemStatus_; and
+
+. provide the results of the decision to the Register Domain Control
+Body and to the Submitting Organization representative.
+
+The Submitting Organization shall:
+
+. make the results of the appeal known within their Submitting
+Organization Working Group, community or organization.
+
+=== Proposal Process -- Data Dictionary Register
+
+After ensuring all required items for inclusion in an S-100 based
+Product Specification have been included in the Concept Register,
+Product Specification developers can further develop these concepts
+to align with their Product Specification Application Schema within
+the Data Dictionary Register. This includes assignment of type and
+feature/attribute binding of concepts as required within discrete
+Domains. When used in the Data Dictionary Register, a concept
+continues to maintain a direct relationship to its "core" item in the
+Concept Register; such that it is updated automatically when the core
+concept has been modified. The Data Dictionary Register has a
+different submission process to the Concept, Portrayal and Metadata
+Registers; and this is illustrated in <<fig4-2>>.
+
+==== Submission Process
+
+Submitting Organization representatives shall:
+
+. receive proposals for the registration of items from proposers
+within their respective Submitting Organization Working Groups,
+communities or organizations;
+
+. ensure that all proposals are logical and complete and are
+consistent with other features, attributes and enumerated values; and
+
+. submit proposals to the appropriate Domain within the Register
+through the proposal process in the IHO GI Registry interface.
+
+The Register Manager shall ensure the following:
+
+. if the proposal is for clarification or retirement of a Register
+item, forward the proposal to the Register Domain Control Body; or
+
+. if the proposal is for registration of a new item or supersession
+of an existing Register item:
+
+.. assign an _itemIdentifier_ to the new or superseding item,
+
+.. set the _itemStatus_ of the item to 'processing'; and
+
+.. inform the Register Domain Control Body of the new proposal
+within five working days.
+
+==== Approval Process
+
+The Domain Control Body may decide to:
+
+. accept the proposal without change;
+
+. accept the proposal subject to changes negotiated with the
+Submitting Organization representative; or
+
+. not accept the proposal.
+
+Criteria for not accepting a proposal include:
+
+. the specification of the item is incomplete or incomprehensible;
+
+. an identical or very similar item already exists in the Register;
+
+. the proposed item does not belong to an item class included in the
+Register;
+
+. the proposed item does not fall within the scope of the Register;
+or
+
+. the justification for the proposal is inadequate.
+
+Each Register Domain Control Body member shall inform the Register
+Manager of their Working Group / organization's decision, and the
+rationale for that decision, within 30 days of receipt of the
+proposal through the approval process in the IHO GI Registry
+interface. Nil returns will be taken as acceptance of the proposal.
+
+The Register Manager shall:
+
+. serve as the point of contact if there is a need for negotiations
+between the Submitting Organization representative and the Register
+Domain Control Body regarding any changes required to a proposal
+that may be specified by the Domain Control Body as a condition of
+acceptance; and
+
+. inform the Submitting Organization representative of the results
+of processing the proposal.
+
+If the decision of the Register Domain Control Body is positive, the
+Register Manager shall, in accordance with policies for the Register:
+
+. complete the proposal management record with _proposalStatus_ set
+to 'accepted', and _dateAccepted_ to the date of the Domain Control
+Body's decision;
+
+. make approved changes to the content of the Register item; and
+
+. set the Register item _itemStatus_ to 'valid', 'superseded',
+'modified' or 'retired', as appropriate.
+
+If the decision of the Register Domain Control Body is negative:
+
+. update the proposal management record by setting _proposalStatus_
+to 'rejected', and _dateAmended_ to the date of the Domain Control
+Body's decision;
+
+. inform the Submitting Organization representative of the 60
+working day deadline for appealing the decision of the Domain
+Control Body; and
+
+. make the results of the approval process available to all
+interested parties.
+
+Submitting Organization representatives shall:
+
+. negotiate with the Register Domain Control Body through the
+Register Manager, regarding any changes to their proposals that are
+specified by the Domain Control Body as a condition of acceptance;
+and
+
+. make known to the proposer and within their respective Submitting
+Organization communities or organizations the decisions taken on
+proposals by the Register Domain Control Body as transmitted to them
+by the Register Manager.
+
+==== Withdrawal of Proposals
+
+Submitting Organization representatives may decide to withdraw a
+proposal, using the withdrawal process in the IHO GI Registry
+interface, at any time during the approval process.
+
+The Register Manager shall then:
+
+. change the proposal management _proposalStatus_ from
+'notYetDetermined' to 'withdrawn';
+
+. change the proposal management value for _dateAmended_ to the
+current date; and
+
+. keep track of the proposal and report the withdrawal in the next
+periodic report.
+
+=== Proposal Process -- Product Specification Register
+
+Representatives of organizations may submit submissions for the
+addition of new Product Specifications in the Product Specification
+Register; or for the Clarification, Supersession, or Retirement of
+existing Product Specifications in the Register. Requests are to be
+submitted using the mechanisms provided in the IHO GI Registry web
+interface.
+
+==== Acceptance Criteria
+
+===== IHO Product Specifications
+
+Product Specifications that have been adopted by the IHO will be
+recorded or referenced in the Register. These Product Specifications
+will carry the identifying code S-1__nn__ and will also have a plain
+language title.
+
+===== Other Product Specifications
+
+Product Specifications that have been developed by other competent
+organizations may be recorded or referenced in the Register provided
+that:
+
+. they use S-100 as the underlying framework standard (organizations
+are encouraged to populate Feature Catalogues, either using existing
+entities registered in the IHO GI Registry or proposing new ones to
+the Registry where appropriate);
+
+. any identification number or the plain language title used does
+not infer that it is an IHO standard or that it has received any
+endorsement or approval of the IHO; and
+
+. the content description is described in plain language.
+
+==== Submission Process
+
+The Working Group, community or organization making a submission
+shall ensure that the new Product Specification:
+
+. is complete; and
+
+. is made available to the Register Manager.
+
+The Register Manager shall:
+
+. receive the submission from the Working Group, community or
+organization;
+
+. review the Product Specification for completeness;
+
+. return the submission to the Working Group, community or
+organization if incomplete; and
+
+. update the item management record, with the _proposalStatus_ set
+to 'notYetDetermined'.
+
+The Register Manager shall use the following criteria to determine
+if a submission is complete:
+
+. it falls within the scope of the Register; or
+
+. a registered item (or similar) to the proposed does not already
+exist.
+
+==== Approval Process
+
+The Register Manager shall ensure that all aspects of the submission
+have been satisfied and all components of the Product Specification
+have been supplied.
+
+The Register Manager shall:
+
+. create a new Register item for the Product Specification; and
+
+. inform the Working Group, community or organization that the
+Product Specification has been included as an item in the Register.
+
+=== Proposal Process -- Producer Code Register
+
+Representatives of organizations that require a data Producer Code
+shall submit applications for a Producer Code, via an email to the
+Register Manager, using a link available in the IHO GI Registry web
+interface.
+
+The Producer Code Register is used as the source for IHO Publication
+S-62 -- _List of IHO Data Producer Codes_.
+
+==== Eligibility Criteria
+
+===== Government Authorities
+
+Data Producer Codes allocated to Governments, authorized
+Hydrographic Offices or other relevant government institutions will
+be recorded in the Register. Distinction is made in the Register
+between IHO Member State authorities and non-IHO Member State
+authorities.
+
+Data producers allocated with a Government Authority Producer Code
+are considered to be the producers of "official" ENC datasets.
+
+===== Other Producing Authorities
+
+Data Producer Codes allocated to all other competent organizations
+and entities will also be included in the Register; and will be
+distinguished from those allocated to government authorities.
+
+Data producers allocated with an Other Producing Agency Producer
+Code are considered to be the producers of "non-official" S-57
+datasets.
+
+==== Submission of Applications
+
+The organization making the application shall ensure that all
+applications are complete.
+
+The Register Manager shall:
+
+. receive applications from applicants;
+
+. review applications for suitability and completeness; and
+
+. return applications to the applicant if incomplete.
+
+==== Approval Process
+
+The Register Manager shall ensure that:
+
+. a suitable entry does not already exist in the Register, and if
+not;
+
+. allocate a Producer Code and assign it to a category (Member
+State, Other State or Other); and
+
+. inform the applicant within 10 working days.
+
+The Register Manager shall:
+
+. serve as the point of contact if there is a need for negotiations
+with an applicant regarding any changes required to an application.
+
+==== Appeals
+
+An applicant may appeal to the Executive Control Body (and
+ultimately the HSSC) if it disagrees with the decision of the
+Register Manager to reject an application.
+
+The applicant shall submit its appeal to the Register Manager.
+
+The Register Manager shall:
+
+. forward the appeal to the Executive Control Body or HSSC as
+appropriate, and
+
+. inform the appellant of the decision.

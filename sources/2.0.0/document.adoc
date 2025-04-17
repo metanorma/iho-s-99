@@ -1,0 +1,26 @@
+= Operational Procedures for the Organization and Management of the IHO Geospatial Information Registry
+:series: S
+:docnumber: 99
+:doctype: specification
+:edition: 2.0.0
+:language: en
+:published-date: 2022-10
+:copyright-year: 2022
+:status: in-force
+:committee: hssc
+:workgroup: S-100
+:mn-document-class: iho
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+:imagesdir: images
+
+include::sections/00-doc-history.adoc[]
+
+include::sections/01-overview.adoc[]
+
+include::sections/02-structure.adoc[]
+
+include::sections/03-roles.adoc[]
+
+include::sections/04-administration.adoc[]
