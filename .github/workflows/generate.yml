@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  group: "${{ github.workflow }}-${{ github.head_ref || github.ref_name }}"
   cancel-in-progress: true
 
 jobs:
@@ -25,6 +25,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true
+
+      - name: Print Metanorma version
+        run: metanorma --version
 
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@v2
