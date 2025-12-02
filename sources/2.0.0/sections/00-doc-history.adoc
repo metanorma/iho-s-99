@@ -1,14 +1,14 @@
 [.preface]
 == metanorma-extension
 
+=== document history
+
 [.boilerplate]
 --
 Changes to this Product Specification are coordinated by the IHO S-100 Working Group (S-
 100WG) which is a Working Group of the IHO Hydrographic Services and Standards
 Committee (HSSC). New editions will be made available via the IHO web site.
 --
-
-=== document history
 
 [source,yaml]
 ----
